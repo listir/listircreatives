@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #000330;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-weight: 900;
+}
+
+.text-stroke {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    text-shadow: 1px 0 0 white, 0 -1px 0 white, 0 1px 0 white, -1px 0 0 white;
+}
+
+.f900{
+    font-weight: 900;
+}
+
+.txtShadow{
+    text-shadow: 0px 17px 27px rgba(64, 100, 233, 0.40);
+}
+
+.slick-list {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.slick-slide {
+    margin-right: 0 !important;
+}
+.slick-arrow{
+    display: none !important;
+}
+
+.customBg{
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(37, 37, 52, 0.00) 0%, #252534 100%);
+    box-shadow: 0px 15px 50px 0px rgba(255, 87, 34, 0.10);
+}
+
+.servicesBg{
+    background: radial-gradient(29.57% 69.06% at 50% 43.67%, #1A1D4B 0%, #050614 100%);
+}
+.customBg2{
+    background: radial-gradient(44.21% 103.24% at 50% 3.09%, #0D0E24 0%, #050614 100%);
+    box-shadow: 0px 15px 50px 0px rgba(255, 87, 34, 0.10);
+}
+
+.react-tabs__tab--selected {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.react-tabs__tab {
+    background-color: #00000000; 
+    border: 0px !important;
+    color: #ADACB5;
+    font-size: 20px;
+}
+  
+.custom-tab:hover {
+    color: white;
+  }
