@@ -36,13 +36,17 @@ h1{
 .slick-arrow{
     display: none !important;
 }
-
+.custom-overlay {
+    background-color: rgba(0, 0, 0, 0.75); /* Customize the color and transparency */
+  }
 .customBg{
     border-radius: 10px;
     background: linear-gradient(180deg, rgba(37, 37, 52, 0.00) 0%, #252534 100%);
     box-shadow: 0px 15px 50px 0px rgba(255, 87, 34, 0.10);
 }
-
+.bgGrad{
+    background: radial-gradient(58.63% 39.84% at 65.7% 50%, #202564 0%, #050614 100%);
+}
 .servicesBg{
     background: radial-gradient(29.57% 69.06% at 50% 43.67%, #1A1D4B 0%, #050614 100%);
 }

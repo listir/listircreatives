@@ -12,6 +12,7 @@ import Slider7 from '../assets/slider7.png'
 import Slider8 from '../assets/slider8.png'
 import { ReactTyped } from "react-typed";
 import Slider from 'react-slick';
+import { Link } from 'react-scroll'
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -76,11 +77,18 @@ function Hero() {
           </div>
           <div className='lg:w-[700px] ssm:w-full mx-auto mt-[-20px]'>
             <p className='text-[#ADACB5] lg:text-[20px] ssm:text-[16px] mx-auto ssm:px-15  text-center'>
-            <span className='font-bold text-white'>Lorem ipsum dolor sit amet</span> consectetur adipiscing elit, sed do eiusmod tempor incidm, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            <span className='font-bold text-white capitalize'>I'm a web designer and funnel builder</span> with 3 years of experience. As a freelancer expert, my mission is to design and develop websites and sales funnels that you and your audience love.
             </p>
-            <button className='block mx-auto py-4 px-[50px] bg-[#4064E9] shadow-[#4064E9]/50 hover:bg-gradient-to-l hover:from-[#153AC5] hover:via-[#4064E9] hover:to-[#153AC5] transition duration-300 ease-in-out shadow-lg lg:text-[26px] sm:text-[18px] rounded-full f900 text-white mt-10'>
+            <Link 
+                to="contact" 
+                smooth={true} 
+                duration={1000} 
+                >
+              <button className='block mx-auto py-4 px-[50px] bg-[#4064E9] shadow-[#4064E9]/50 hover:bg-gradient-to-l hover:from-[#153AC5] hover:via-[#4064E9] hover:to-[#153AC5] transition duration-300 ease-in-out shadow-lg lg:text-[26px] sm:text-[18px] rounded-full f900 text-white mt-10'>
               LEARN MORE ABOUT ME
             </button>
+            </Link>
+
           </div>
       </div>
       <div className='w-full h-auto mx-auto lg:mt-20 sm:mt-5'>

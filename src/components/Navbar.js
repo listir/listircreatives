@@ -60,13 +60,15 @@ export const Navbar = () => {
             </Link>
             </li>
         </ul>
-        <div onClick={handdleNav} className='block md:hidden'>
+        <div onClick={handdleNav} className='block md:hidden z-[9999]'>
             {!nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} /> }
         </div>
-        <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r bg-[#000330] border-r-gray-900 z-[9999]' : 'fixed left-[-100%] ease-in-out duration-500 z-[9999]'}>
-        <h1 className='w-full text-3xl font-bold text-white m-4 f900'>LISTIR</h1>   
-            <ul className='uppercase p-4'>
-                <li className='p-4 border-b border-b-gray-600 hover:text-[#4064E9]'>
+        <div className={nav ? 'fixed left-0 top-0 w-full h-full border-r bg-[#050614] border-r-gray-900 z-[9999]' : 'fixed left-[-100%] ease-in-out duration-500 z-[9999]'}> 
+            <ul className='uppercase p-4 text-center font-bold text-[26px]'>
+                <div onClick={handdleNav} className='flex justify-end md:hidden self-end text-right mt-5'>
+                    {!nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} /> }
+                </div>
+                <li className='p-4  hover:text-[#4064E9]'>
                 <Link onClick={handdleNav} 
                     to="home" 
                     smooth={true} 
@@ -75,7 +77,7 @@ export const Navbar = () => {
                     Home
                 </Link>
                 </li>
-                <li className='p-4 border-b border-b-gray-600 hover:text-[#4064E9]'>
+                <li className='p-4  hover:text-[#4064E9]'>
                 <Link onClick={handdleNav} 
                     to="about" 
                     smooth={true} 
@@ -84,7 +86,7 @@ export const Navbar = () => {
                     About
                 </Link>
                 </li>
-                <li className='p-4 border-b border-b-gray-600 hover:text-[#4064E9]'>
+                <li className='p-4  hover:text-[#4064E9]'>
                 <Link onClick={handdleNav} 
                     to="services" 
                     smooth={true} 
@@ -93,7 +95,7 @@ export const Navbar = () => {
                     Services
                 </Link>
                 </li>
-                <li className='p-4 border-b border-b-gray-600 hover:text-[#4064E9]'>
+                <li className='p-4  hover:text-[#4064E9]'>
                 <Link onClick={handdleNav} 
                     to="portfolio" 
                     smooth={true} 

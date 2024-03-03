@@ -23,7 +23,7 @@ function Portfolio() {
         <p className='lg:text-[20px] ssm:text-16 text-[#ADACB5] uppercase'>
             PORTFOLIO 
         </p>
-        <h1 className='lg:text-[55px] ssm:text-[36px] lg:leading-[50px] ssm:leading-[36px] text-white uppercase mt-2'>
+        <h1 className='lg:text-[55px] ssm:text-[33px] lg:leading-[50px] ssm:leading-[36px] text-white uppercase mt-2'>
         Check my Recent Client Work
         </h1>
         <div className='w-full h-auto mx-auto mt-10'>

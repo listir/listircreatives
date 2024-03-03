@@ -3,6 +3,7 @@ import Linings from '../assets/lines.svg'
 import { TbDeviceDesktopCode } from "react-icons/tb"
 import { FaFunnelDollar } from "react-icons/fa"
 import { SiMaterialdesignicons } from "react-icons/si"
+import { Link } from 'react-scroll'
 
 function Services() {
   return (
@@ -11,7 +12,7 @@ function Services() {
             <p className='lg:text-[20px] ssm:text-16 text-[#ADACB5] uppercase'>
                 services
             </p>
-            <h1 className='lg:text-[55px] ssm:text-[36px] lg:leading-[50px] ssm:leading-[36px] text-white uppercase mt-2'>
+            <h1 className='lg:text-[55px] ssm:text-[33px] lg:leading-[50px] ssm:leading-[36px] text-white uppercase mt-2'>
             Uncover the Services I Provide
             </h1>
             <p className='lg:text-[20px] ssm:text-16 text-[#ADACB5] lg:w-[650px] ssm:w-full mx-auto mt-3'>
@@ -25,7 +26,7 @@ function Services() {
                     <TbDeviceDesktopCode className='text-white text-[60px] mx-auto text-center' />
                 </div> 
                 <h1 className='lg:text-[27px] ssm:text-[20px] text-center text-[#FBF9FF] uppercase mt-5'>web development</h1>
-                <p className='lg:text-[20px] ssm:text-12 text-center text-[#ADACB5] mt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i.</p>
+                <p className='lg:text-[18px] ssm:text-12 text-center text-[#ADACB5] mt-2'>I specialize in crafting dynamic and user-friendly web solutions to elevate online experiences for businesses and individuals.</p>
             </div>
 
             <div className='customBg w-full lg:mt-0 ssm:mt-3 mx-3 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 lg:py-20 ssm:py-5 lg:px-10 ssm:px-4 border border-[#FBF9FF33] border-1'>
@@ -33,7 +34,7 @@ function Services() {
                     <FaFunnelDollar className='text-white text-[60px] mx-auto text-center' />
                 </div>
                 <h1 className='lg:text-[27px] ssm:text-[20px] text-center text-[#FBF9FF] uppercase mt-5'>Funnel creation</h1>
-                <p className='lg:text-[20px] ssm:text-12 text-center text-[#ADACB5] mt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i.</p>
+                <p className='lg:text-[18px] ssm:text-12 text-center text-[#ADACB5] mt-2'>I specialize in creating effective and optimized sales funnels to maximize conversions and streamline the customer journey.</p>
             </div>
 
             <div className='customBg w-full lg:mt-0 ssm:mt-3 mx-3 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 lg:py-20 ssm:py-5 lg:px-10 ssm:px-4 border border-[#FBF9FF33] border-1'>
@@ -41,13 +42,19 @@ function Services() {
                     <SiMaterialdesignicons className='text-white text-[60px] mx-auto text-center' />
                 </div>
                 <h1 className='lg:text-[27px] ssm:text-[20px] text-center text-[#FBF9FF] uppercase mt-5'>Graphic Design</h1>
-                <p className='lg:text-[20px] ssm:text-12 text-center text-[#ADACB5] mt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i.</p>
+                <p className='lg:text-[18px] ssm:text-12 text-center text-[#ADACB5] mt-2'>I provide creative graphic design solutions that visually communicate brand identities, ideas, and messages with a focus on aesthetics and impact.</p>
             </div>
         </div>
-        <div className='lg:mt-10 ssm:mt-3'>
-        <button className='lg:text-[26px] sm:text-[18px] block mx-auto py-4 px-[50px] bg-[#4064E9] shadow-lg shadow-[#4064E9]/50 hover:bg-gradient-to-l hover:from-[#153AC5] hover:via-[#4064E9] hover:to-[#153AC5] transition duration-300 ease-in-out rounded-full f900 text-white '>
-            LEARN MORE ABOUT ME
-          </button>
+        <div className='lg:mt-3 ssm:mt-3'>
+            <Link 
+                to="contact" 
+                smooth={true} 
+                duration={1000} 
+                >
+                <button className='lg:text-[26px] sm:text-[18px] block mx-auto py-4 px-[50px] bg-[#4064E9] shadow-lg shadow-[#4064E9]/50 hover:bg-gradient-to-l hover:from-[#153AC5] hover:via-[#4064E9] hover:to-[#153AC5] transition duration-300 ease-in-out rounded-full f900 text-white '>
+                    LEARN MORE ABOUT ME
+                </button>
+            </Link>
         </div>
     </div>
   )
