@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/listircreatives/static/css/main.03b3cf2a.css",
-    "main.js": "/listircreatives/static/js/main.3c0fa9e9.js",
+    "main.css": "/listircreatives/static/css/main.0177f4b0.css",
+    "main.js": "/listircreatives/static/js/main.61c21b22.js",
+    "static/media/img1.png": "/listircreatives/static/media/img1.e3cf852d5878fec84ade.png",
     "static/media/HeroBg.jpg": "/listircreatives/static/media/HeroBg.53f9819c2da7699fb968.jpg",
     "static/media/Listir.png": "/listircreatives/static/media/Listir.078475690debd22ddb65.png",
-    "static/media/img1.png": "/listircreatives/static/media/img1.02cfeaf3937e2768e8d8.png",
     "static/media/slider2.png": "/listircreatives/static/media/slider2.cf63d3cefb1ca920927d.png",
     "static/media/TxtBg.png": "/listircreatives/static/media/TxtBg.a35042d68140105f0c12.png",
     "static/media/slider5.png": "/listircreatives/static/media/slider5.bc3a202271c5745be1f6.png",
@@ -20,17 +20,18 @@
     "static/media/graphic1.png": "/listircreatives/static/media/graphic1.02c7bd2435bf865cdcf4.png",
     "static/media/graphic2.png": "/listircreatives/static/media/graphic2.83b96b23aa6af2587543.png",
     "static/media/graphic4.png": "/listircreatives/static/media/graphic4.189503fbfc8cb4b2ad03.png",
-    "static/media/lines.svg": "/listircreatives/static/media/lines.7fc759bb2234b890676a24ca9fd6bc39.svg",
+    "static/media/tools.svg": "/listircreatives/static/media/tools.ad3ea70a21b8a63f040c08e44c741415.svg",
+    "static/media/lines.svg": "/listircreatives/static/media/lines.8a88c91c57f8ebbb73b0fad66e700068.svg",
     "static/media/slick.svg": "/listircreatives/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/listircreatives/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/listircreatives/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/listircreatives/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/listircreatives/index.html",
-    "main.03b3cf2a.css.map": "/listircreatives/static/css/main.03b3cf2a.css.map",
-    "main.3c0fa9e9.js.map": "/listircreatives/static/js/main.3c0fa9e9.js.map"
+    "main.0177f4b0.css.map": "/listircreatives/static/css/main.0177f4b0.css.map",
+    "main.61c21b22.js.map": "/listircreatives/static/js/main.61c21b22.js.map"
   },
   "entrypoints": [
-    "static/css/main.03b3cf2a.css",
-    "static/js/main.3c0fa9e9.js"
+    "static/css/main.0177f4b0.css",
+    "static/js/main.61c21b22.js"
   ]
 }
