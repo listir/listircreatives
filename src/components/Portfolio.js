@@ -18,23 +18,23 @@ import Graphics6 from '../assets/graphic6.png'
 
 function Portfolio() {
   return (
-    <div className='w-full mx-auto py-20 h-auto servicesBg'>
-    <div className='w-[1200px] mx-auto h-auto  text-center'>
-        <p className='text-[20px] text-[#ADACB5] uppercase'>
+    <div name="portfolio" className='w-full mx-auto lg:py-20 ssm:py-5 ssm:px-5 h-auto servicesBg'>
+    <div className='lg:w-[1200px] ssm:w-full mx-auto h-auto  text-center'>
+        <p className='lg:text-[20px] ssm:text-16 text-[#ADACB5] uppercase'>
             PORTFOLIO 
         </p>
-        <h1 className='text-[55px] leading-[50px] text-white uppercase mt-2'>
+        <h1 className='lg:text-[55px] ssm:text-[36px] lg:leading-[50px] ssm:leading-[36px] text-white uppercase mt-2'>
         Check my Recent Client Work
         </h1>
-        <div className='w-[1000px] h-auto mx-auto mt-10'>
+        <div className='w-full h-auto mx-auto mt-10'>
         <Tabs>
-            <TabList>
-            <Tab>WEB DEVELOPMENT</Tab>
-            <Tab>GRAPHIC DESIGN</Tab>
+            <TabList className='flex justify-center items-center gap-4'>
+            <Tab className='lg:text-[20px] ssm:text-[15px] text-[#ADACB5]'>WEB DEVELOPMENT</Tab>
+            <Tab className='lg:text-[20px] ssm:text-[15px] text-[#ADACB5]'>GRAPHIC DESIGN</Tab>
             </TabList>
 
             <TabPanel>
-            <div className='grid grid-cols-4 gap-4 mt-10'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-3 ssm:grid-cols-2 lg:gap-4 ssm:gap-2 lg:mt-10 ssm:mt-5'>
                 <img src={Portfolio1} alt='portfolio' className='w-[320px] h-auto' />
                 <img src={Portfolio2} alt='portfolio' className='w-[320px] h-auto' />
                 <img src={Portfolio3} alt='portfolio' className='w-[320px] h-auto' />
@@ -46,7 +46,7 @@ function Portfolio() {
             </div>
             </TabPanel>
             <TabPanel>
-                <div className='grid grid-cols-4 gap-4 mt-10'>
+                <div className='grid lg:grid-cols-4 md:grid-cols-3 ssm:grid-cols-2 lg:gap-4 ssm:gap-2  lg:mt-10 ssm:mt-5'>
                     <img src={Graphics1} alt='portfolio' className='w-[320px] h-auto' />
                     <img src={Graphics2} alt='portfolio' className='w-[320px] h-auto' />
                     <img src={Graphics3} alt='portfolio' className='w-[320px] h-auto' />

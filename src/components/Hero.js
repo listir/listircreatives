@@ -31,41 +31,63 @@ function Hero() {
     centerPadding: '0',
     initialSlide: 0,
     variableWidth: true, 
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 5,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          initialSlide: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4
+        }
+      }
+    ]
   };
 
   return (
-    <div className='w-full pt-4 mx-auto bg-cover bg-center bg-no-repeat h-[1150px]' style={{ backgroundImage: `url(${HeroBg})` }}>
-      <div className='w-[1300px] mx-auto'>
-        {/* eslint-disable-next-line */}
-        <img className='mx-auto' src={Listir}/>
-        {/* eslint-disable-next-line */}
-        <img className='w-[1100px] mt-10 h-auto absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={TxtBg} alt='Me'/>
-        <div className='w-full mt-[50px] flex justify-center items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
-          <h1 className='text-[120px]  text-[#4064E9] txtShadow'>
-            HI
-          </h1>
-          <ReactTyped className='text-[120px]  text-white pl-4 f900 txtShadow'
-            strings={['LISTIR HERE!']} 
-            typeSpeed={70}
-            backSpeed={140}
-            cursorChar=""
-          />
-        </div>
-        <div className='w-[700px] mx-auto mt-[250px] absolute top-1/2  left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-          <p className='text-[#ADACB5] text-[20px]  text-center'>
-          <span className='font-bold text-white'>Lorem ipsum dolor sit amet</span> consectetur adipiscing elit, sed do eiusmod tempor incidm, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-          <button className='block mx-auto py-4 px-[50px] bg-[#4064E9] shadow-[#4064E9]/50 hover:bg-gradient-to-l hover:from-[#153AC5] hover:via-[#4064E9] hover:to-[#153AC5] transition duration-300 ease-in-out shadow-lg text-[26px] rounded-full f900 text-white mt-10'>
-            LEARN MORE ABOUT ME
-          </button>
-        </div>
-        
+    <div name="home" className='w-full pt-4 mx-auto bg-cover bg-center bg-no-repeat h-[1150px] ssm:h-auto' style={{ backgroundImage: `url(${HeroBg})` }}>
+
+      <div className='lg:w-[1240px] sm:w-full  lg:py-[100px] ssm:py-10 px-5 ssm:px-5 mx-auto ssm:mt-0 relative h-screen ssm:h-auto bg-contain bg-center bg-no-repeat' style={{ backgroundImage: `url(${Listir})` }}>
+        <div className='w-full lg:py-11 ssm:py-5 ssm:mt-20 flex justify-center items-center  bg-contain bg-center bg-no-repeat' style={{ backgroundImage: `url(${TxtBg})` }}>
+            <h1 className='lg:text-[120px] md:text-[70px] ssm:text-[40px] text-[#4064E9] txtShadow'>
+              HI
+            </h1>
+            <ReactTyped className='lg:text-[120px] md:text-[60px] ssm:text-[40px] text-white pl-4 f900 txtShadow'
+              strings={['LISTIR HERE!']} 
+              typeSpeed={70}
+              backSpeed={140}
+              cursorChar=""
+            />
+          </div>
+          <div className='lg:w-[700px] ssm:w-full mx-auto mt-[-20px]'>
+            <p className='text-[#ADACB5] lg:text-[20px] ssm:text-[16px] mx-auto ssm:px-15  text-center'>
+            <span className='font-bold text-white'>Lorem ipsum dolor sit amet</span> consectetur adipiscing elit, sed do eiusmod tempor incidm, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button className='block mx-auto py-4 px-[50px] bg-[#4064E9] shadow-[#4064E9]/50 hover:bg-gradient-to-l hover:from-[#153AC5] hover:via-[#4064E9] hover:to-[#153AC5] transition duration-300 ease-in-out shadow-lg lg:text-[26px] sm:text-[18px] rounded-full f900 text-white mt-10'>
+              LEARN MORE ABOUT ME
+            </button>
+          </div>
       </div>
-      <div className='w-full h-auto mx-auto mt-[-50px]'>
-        <Slider {...settings} className='p-0 transform translate-x-0 translate-y-0 translate-z-0'>
+      <div className='w-full h-auto mx-auto lg:mt-20 sm:mt-5'>
+        <Slider {...settings} className='p-0'>
           {sliders.map((slider, index) => (
             <div key={index} className='w-full p-0 m-0'>
-              <img className='w-[320px] h-auto p-0 m-0' src={slider} alt={`Slider${index + 1}`} style={{ margin: '0' }} />
+              <img className='lg:w-[320px] ssm:w-[100px] h-auto p-0 m-0' src={slider} alt={`Slider${index + 1}`} style={{ margin: '0' }} />
             </div>
           ))}
         </Slider>
