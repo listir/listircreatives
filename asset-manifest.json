@@ -1,19 +1,29 @@
 {
   "files": {
-    "main.css": "/listircreatives/static/css/main.6adb4855.css",
-    "main.js": "/listircreatives/static/js/main.2efead2b.js",
+    "main.css": "/listircreatives/static/css/main.fb4a60ca.css",
+    "main.js": "/listircreatives/static/js/main.125d7d90.js",
+    "static/media/slider16.png": "/listircreatives/static/media/slider16.1a231e6d5f883f0442aa.png",
     "static/media/img1.png": "/listircreatives/static/media/img1.2ba5f45f58bb3f600ff6.png",
-    "static/media/HeroBg.jpg": "/listircreatives/static/media/HeroBg.53f9819c2da7699fb968.jpg",
+    "static/media/HeroBg.jpg": "/listircreatives/static/media/HeroBg.3f6282e79e12da1bc197.jpg",
     "static/media/Listir.png": "/listircreatives/static/media/Listir.078475690debd22ddb65.png",
     "static/media/slider2.png": "/listircreatives/static/media/slider2.cf63d3cefb1ca920927d.png",
     "static/media/TxtBg.png": "/listircreatives/static/media/TxtBg.a35042d68140105f0c12.png",
+    "static/media/graphic7.png": "/listircreatives/static/media/graphic7.d656081dac4dad9dadc5.png",
+    "static/media/slider15.png": "/listircreatives/static/media/slider15.f79bbd8bc58bb60046a7.png",
+    "static/media/slider11.png": "/listircreatives/static/media/slider11.1b6362ba919d3c1d7b67.png",
+    "static/media/slider14.png": "/listircreatives/static/media/slider14.ecc7f597469593cd8131.png",
     "static/media/slider5.png": "/listircreatives/static/media/slider5.bc3a202271c5745be1f6.png",
     "static/media/slider3.png": "/listircreatives/static/media/slider3.6ba880584b4dc3a918b1.png",
+    "static/media/graphic8.png": "/listircreatives/static/media/graphic8.561c653b85a77a976ee1.png",
     "static/media/graphic3.png": "/listircreatives/static/media/graphic3.6bf4c5adc7d4ccf8c086.png",
+    "static/media/slider10.png": "/listircreatives/static/media/slider10.b9ee272eef57e47f0009.png",
     "static/media/slider1.png": "/listircreatives/static/media/slider1.43957f57f1c402137f30.png",
+    "static/media/slider9.png": "/listircreatives/static/media/slider9.37a42d7f7ae38f3cf91b.png",
     "static/media/slider8.png": "/listircreatives/static/media/slider8.7b49f6bec4967c889efd.png",
+    "static/media/slider12.png": "/listircreatives/static/media/slider12.f855b28189857e67d161.png",
     "static/media/slider4.png": "/listircreatives/static/media/slider4.8ecaeb7a0dd21aa6156c.png",
     "static/media/slider7.png": "/listircreatives/static/media/slider7.5844e419f0610741bf54.png",
+    "static/media/slider13.png": "/listircreatives/static/media/slider13.28819bc2e59d997875b7.png",
     "static/media/graphic6.png": "/listircreatives/static/media/graphic6.2c66a5f7530710d7d9a7.png",
     "static/media/slider6.png": "/listircreatives/static/media/slider6.94f76c4699e6befb2a6c.png",
     "static/media/graphic5.png": "/listircreatives/static/media/graphic5.e7c3c3f7bfba137a9c64.png",
@@ -27,11 +37,11 @@
     "static/media/slick.ttf": "/listircreatives/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/listircreatives/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/listircreatives/index.html",
-    "main.6adb4855.css.map": "/listircreatives/static/css/main.6adb4855.css.map",
-    "main.2efead2b.js.map": "/listircreatives/static/js/main.2efead2b.js.map"
+    "main.fb4a60ca.css.map": "/listircreatives/static/css/main.fb4a60ca.css.map",
+    "main.125d7d90.js.map": "/listircreatives/static/js/main.125d7d90.js.map"
   },
   "entrypoints": [
-    "static/css/main.6adb4855.css",
-    "static/js/main.2efead2b.js"
+    "static/css/main.fb4a60ca.css",
+    "static/js/main.125d7d90.js"
   ]
 }
